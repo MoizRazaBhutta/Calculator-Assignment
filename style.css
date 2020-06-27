@@ -1,0 +1,45 @@
+.Main{
+    border: 2px solid black;
+    height: 550px;
+    width: 520px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: lightcoral;
+}
+.Result{
+    height: 100px;
+    width: 470px;
+    margin: 15px;
+    margin-left: 20px;
+    color: black;
+    background-color:lightblue;
+    font-size:xx-large;
+}
+.ClrBtn{
+    height: 50px;
+    width: 480px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: lightcyan;
+    /* box-shadow: darkslategray; */
+}
+.Btn{
+    height: 50px;
+    width: 110px;
+    margin: 5px; 
+    border-radius: 10px;
+    background-color: lightcyan;
+
+}
+.BtnSt{
+    margin-left: 20px;
+}
+.HalfBtn{
+    height: 50px;
+    width: 240px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: lightcyan;
+
+}

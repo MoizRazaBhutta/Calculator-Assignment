@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 15</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Name: Abdul Moiz </h1>
+    <h1>Roll No: WM1312</h1>
+    <!-- Calculator -->
+    <div class="Main">
+        <h1 style="text-align: center;">Calculator App</h1>
+        <div>
+            <input type="text" class="Result" id="Result">
+        </div>
+        <div>
+            <button class="ClrBtn" onclick="remNum()">C</button>
+        </div>
+        <div>
+            <button class="Btn BtnSt" onclick="getNum('7');">7</button>
+            <button class="Btn" onclick="getNum('8');"> 8</button>
+            <button class="Btn" onclick="getNum('9');">9</button>
+            <button class="Btn" onclick="getNum('*');">X</button>
+        </div>
+        <div>
+            <button class="Btn BtnSt" onclick="getNum('4');">4</button>
+            <button class="Btn" onclick="getNum('5');">5</button>
+            <button class="Btn" onclick="getNum('6');">6</button>
+            <button class="Btn" onclick="getNum('-');">-</button>
+        </div>
+        <div>
+            <button class="Btn BtnSt" onclick="getNum('1');">1</button>
+            <button class="Btn" onclick="getNum('2');">2</button>
+            <button class="Btn" onclick="getNum('3');">3</button>
+            <button class="Btn" onclick="getNum('+');">+</button>
+        </div>
+        <div>
+            <button class="HalfBtn BtnSt" onclick="getNum('0');"> 0</button>
+            <button class="HalfBtn" onclick="getResult()">=</button>
+        </div>
+
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>
